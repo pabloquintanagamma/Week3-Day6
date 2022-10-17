@@ -1,0 +1,46 @@
+.responsive-div{
+
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.responsive-div2{
+
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    
+}
+
+
+
+@media (min-width: 700px) and (max-width: 1000px) {
+
+.responsive-div{
+    background-color: yellow;
+}
+}
+
+@media (min-width: 1200px){
+    .responsive-div{
+        display: none;
+    }
+    .responsive-div2{
+        width: 100%;
+    }
+}
+
+
+/* @media (min-width: 700px) and (max-width: 1200px){
+    .responsive-div{
+        background-color: blue;
+    }
+} 
+
+@media (min-width: 1400px){
+    .responsive-div{
+        display: none;
+    }
+} */

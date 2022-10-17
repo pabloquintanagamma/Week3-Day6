@@ -1,0 +1,20 @@
+h1{
+      /* animation-name: yabadu;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+             */
+animation: nombreAnimacion  2s linear infinite alternate;
+}
+
+
+@keyframes nombreAnimacion {
+    0% {
+        margin-top: 0;
+    }
+
+    100%{
+        margin-top: 300px;
+    }
+}
